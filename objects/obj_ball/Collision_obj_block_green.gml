@@ -1,0 +1,1 @@
+src_colisao_blocos();
