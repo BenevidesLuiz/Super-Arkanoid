@@ -15,3 +15,18 @@ if(global.score > global.record){
  
 
 }
+
+
+function src_sorteio_powup(){
+	
+	randomize();
+	
+	var sorteio = irandom(9);
+	
+	if(sorteio == 9){
+		instance_create_layer(x,y,"itens", obj_item_powup);
+		audio_play_sound(snd_item_poweup, 10, false);
+
+	}
+	
+}
